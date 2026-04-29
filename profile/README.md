@@ -204,15 +204,14 @@ Real-time   →  WebSockets — logs · chat · incidents · alerts
 
 ---
 
-## 🚀 Try It Now
+## 🚀 Get Started
 
 ```bash
-# Visit the platform
+# Visit the platform and sign up free — no card needed
 https://infravox.ai
 
-# Demo credentials (no sign-up needed)
-Email:    demo@infravox.ai
-Password: demo1234
+# Connect your first integration in under 2 minutes
+# AWS · Azure · GCP · Kubernetes · GitHub · GitLab
 ```
 
 ---
