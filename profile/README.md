@@ -1,137 +1,142 @@
 <div align="center">
 
-<h1>⚡ Infravox AI</h1>
+<img src="https://infravox.ai/favicon.ico" width="60" alt="Infravox AI" />
 
-### Autonomous AI SRE Engineer — Monitor. Diagnose. Fix. Automatically. 24/7.
+# Infravox AI
+
+### The Autonomous Engineering Operating System
+
+**Monitor. Diagnose. Remediate. Learn. — Automatically. 24/7.**
 
 [![Website](https://img.shields.io/badge/infravox.ai-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://infravox.ai)
 [![Docs](https://img.shields.io/badge/Documentation-3B82F6?style=for-the-badge&logo=gitbook&logoColor=white)](https://infravox.ai/docs)
+[![CLI](https://img.shields.io/badge/@infravox/cli-00E5FF?style=for-the-badge&logo=gnometerminal&logoColor=black)](https://infravox.ai/cli)
+[![Guides](https://img.shields.io/badge/Guides-6366F1?style=for-the-badge&logo=readme&logoColor=white)](https://infravox.ai/docs)
 [![Pricing](https://img.shields.io/badge/Pricing-8B5CF6?style=for-the-badge&logo=stripe&logoColor=white)](https://infravox.ai/pricing)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/infravox-ai)
-[![Email](https://img.shields.io/badge/shivamsingh@infravox.ai-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shivamsingh@infravox.ai)
 
 </div>
 
 ---
 
-## 🚨 The Problem
+## What is Infravox AI?
 
-Every engineering team fights the same battle, every day:
+Infravox AI is **the first AI-native autonomous infrastructure operating system** — a production-grade SaaS platform that replaces 80% of manual DevOps, SRE, and FinOps workflows using six specialist AI agents working together 24/7.
 
-| Pain | Reality |
+This is **not** a monitoring dashboard. This is **not** a chatbot wrapper.
+
+This is an autonomous OS that:
+- **Detects** anomalies across your entire stack in under 60 seconds
+- **Diagnoses** root cause with 94% confidence using ML-powered analysis
+- **Executes** safe, reversible fixes — restart, rollback, scale, patch
+- **Verifies** recovery and auto-generates postmortems
+- **Learns** from every incident using vector-based AI memory
+
+> **Average MTTR: 4+ hours → 94 seconds. No 3AM pages. No manual toil.**
+
+---
+
+## Six Specialist AI Agents
+
+```
+┌──────────────────────────────────────────────────────────────────────────┐
+│                          AI Orchestrator                                 │
+│          Routes signals · Combines multi-agent outputs · Decides        │
+└────┬──────────┬──────────┬──────────┬──────────┬───────────┘
+     │          │          │          │          │
+  SRE        Kubernetes  Security  FinOps    CI/CD      Code Review
+  Agent       Agent       Agent     Agent    Agent        Agent
+```
+
+| Agent | Capability |
 |---|---|
-| ⏰ **3AM wake-ups** | On-call engineers paged for issues AI could fix in seconds |
-| 🔧 **10+ disconnected tools** | Datadog, PagerDuty, Grafana, Jira, Slack — no unified layer |
-| 🐢 **3–6 hrs per incident** | Manual log correlation and RCA every single time |
-| 💸 **$2K–$10K/month wasted** | Idle cloud resources nobody tracks |
-| 😨 **Deploy fear** | Every release is a potential P1 incident |
-| 📉 **Zero ROI visibility** | No idea what's costing money or breaking |
+| 🧠 **SRE Agent** | 24/7 incident detection, ML root cause analysis, auto-remediation with blast-radius control |
+| ☸️ **Kubernetes Agent** | Pod health, HPA analysis, deployment monitoring, cluster auto-healing |
+| 🔐 **Security Agent** | CVE scanning, RBAC audits, IAM misconfiguration detection, SOC2/HIPAA/GDPR compliance |
+| 💰 **FinOps Agent** | Cloud waste detection, rightsizing, idle resource cleanup — $2K–$15K/mo savings |
+| 🚀 **CI/CD Agent** | Pipeline failure detection, rollback recommendations, deployment risk analysis |
+| 🔀 **Code Review Agent** | AI PR reviews, SAST scanning, secret detection, merge blocking on critical findings |
 
 ---
 
-## ✅ The Solution — Infravox AI
+## Platform Capabilities
 
-**One platform. Five AI agents. Zero 3AM pages.**
-
-Infravox AI is an autonomous AI-powered DevOps and SRE platform that:
-
-- 🔍 **Detects** anomalies across your entire infrastructure in **under 60 seconds**
-- 🧠 **Diagnoses** root cause with **94% confidence** using ML-powered analysis
-- 🔧 **Auto-fixes** incidents (restart, rollback, scale) without human intervention
-- 🔐 **Secures** your code with AI PR reviews and SAST scanning on every commit
-- 💰 **Saves** teams **$2K–$15K/month** by eliminating cloud waste
-
-> ⚡ Average MTTR reduced from **4+ hours → 94 seconds**
-
----
-
-## 🤖 Five Specialist AI Agents
+### 🚨 AI War Room
+Real-time collaborative incident command center. When a P0 fires, the War Room preloads logs, metrics, AI findings, and blast radius. Type `fix it` and watch autonomous remediation execute live.
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                       AI Orchestrator                           │
-│           Routes signals · Combines outputs · Decides          │
-└────────┬──────────┬──────────┬──────────┬────────────┘
-         │          │          │          │
-     SRE Agent  DevOps     Security   FinOps      Git
-                Agent       Agent      Agent      Agent
+P0 INCIDENT  →  War Room opens automatically
+               →  3 agents engaged in parallel
+               →  Root cause identified in <30s
+               →  Approval gate → "Approve & Execute"
+               →  Fix deployed + verified in 94s
+               →  Postmortem auto-generated ✅
 ```
 
-| Agent | What it does |
-|---|---|
-| 🧠 **SRE Agent** | 24/7 incident detection, root cause analysis, auto-remediation |
-| ⚡ **DevOps Agent** | CI/CD monitoring, deploy failure detection, automatic rollbacks |
-| 🔐 **Security Agent** | RBAC audits, vulnerability scanning, compliance checks, secret detection |
-| 💰 **FinOps Agent** | Cloud waste identification, rightsizing, idle resource cleanup |
-| 🔀 **Git Agent** | AI PR reviews, SAST code scanning, pipeline monitoring |
+### 💻 DevOps CLI — `@infravox/cli`
+Your terminal is the Infravox OS. Full platform parity with the web UI.
+
+```bash
+npm install -g @infravox/cli
+
+infravox diagnose payment-api        # AI root cause analysis
+infravox optimize aws-cost           # Cloud cost scan
+infravox fix kubernetes-latency      # Autonomous K8s remediation
+infravox scan security --pr 1842     # Security scan on a PR
+infravox agents status               # View all 6 AI agents live
+infravox logs tail --service api     # Stream live logs
+infravox war-room open               # Open AI War Room
+infravox rollback cart-service       # One-command rollback
+```
+
+### 🔭 Infrastructure Topology Graph
+AI-powered knowledge graph of your entire infrastructure — services, pods, databases, cloud resources, dependencies. AI reasons over graph relationships for faster root cause correlation.
+
+### 📊 AI Change Impact Analysis
+Before every deploy, Infravox scores deployment risk, maps dependency blast radius, and recommends whether to proceed, canary, or hold.
+
+### 💾 RAG + AI Memory
+Vector-based long-term AI memory per tenant. Agents learn your infrastructure patterns, incident history, and runbooks over time — getting smarter with every incident resolved.
 
 ---
 
-## 🔄 How It Works
+## Autonomous Remediation Flow
 
 ```
-  Alert Fires  →  AI Triage (< 30s)  →  Root Cause (94% confidence)
-       ↓
-  Fix Proposed (ranked, safe, reversible)
-       ↓
-  Auto-Execute via MCP (kubectl / AWS SDK / CI/CD API)
-       ↓
-  Verify + Close  →  Postmortem generated ✅
+Alert fires
+    ↓
+AI Triage  (<30s)  —  6 agents collaborate in parallel
+    ↓
+Root Cause  (94% confidence)  —  logs · metrics · topology · git diff
+    ↓
+Fix proposed  —  ranked · reversible · blast-radius scored
+    ↓
+Execute  →  kubectl / AWS SDK / CI/CD API / Helm (via MCP protocol)
+    ↓
+Verify  →  health checks pass
+    ↓
+Close + Postmortem  +  AI memory updated  ✅
 
-  Average: Alert → Resolution in 94 seconds
+Dry-run mode · Approval gates · Rollback built-in · Full audit trail
 ```
 
 ---
 
-## 📦 Platform Features
+## Integrations — 40+ Native Connectors
 
-### 🔭 Observability
-- Real-time dashboards — health score, KPI cards, AI insights panel
-- Log intelligence — AI-powered search, clustering, anomaly detection
-- Metrics & traces — Prometheus-compatible, OpenTelemetry, Tempo
-- Kubernetes monitoring — pods, deployments, namespaces, RBAC, events
-
-### 🚨 Incident Management
-- Proactive anomaly detection before users notice anything
-- AI War Room — real-time collaborative incident bridge with live AI guidance
-- Auto-remediation engine — restart, rollback, scale, patch — fully verified
-- AI-generated postmortems with timeline, root cause, and prevention plan
-
-### 🔀 Git & Code Intelligence
-- AI PR reviews — security, performance, quality feedback on every PR
-- SAST scanning — secrets, CVEs, SQL injection, OWASP Top 10, IaC misconfigs
-- Pipeline monitoring — CI/CD health, flaky test detection, build time trends
-- Merge blocking — auto-block PRs with critical security findings
-
-### 🔐 Security & Compliance
-- Continuous security posture management across infra and code
-- **SOC2 · HIPAA · GDPR · ISO 27001 · PCI-DSS · CIS Benchmarks** (580+ checks)
-- IaC security scanning — Terraform, Helm, CloudFormation
-- Runtime secret detection across Git repos and container environments
-
-### 💰 Cost Optimization (FinOps)
-- Cloud spend dashboard across AWS, Azure, GCP in real time
-- Rightsizing recommendations for EC2, AKS, GKE, EKS nodes
-- Idle resource cleanup — EBS volumes, load balancers, unused IPs
-- Budget alerts per service or team with forecast projections
-
----
-
-## 🔌 40+ Integrations
-
-### ☁️ Cloud Providers
-![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=flat&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+### ☁️ Cloud
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 
-### 🔀 Git Platforms
+### 🔀 Source Control
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white)
 ![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=flat&logo=bitbucket&logoColor=white)
 ![Azure Repos](https://img.shields.io/badge/Azure_Repos-0078D4?style=flat&logo=azuredevops&logoColor=white)
 
-### ⚙️ CI/CD & Deploy
+### ⚙️ CI/CD
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat&logo=gitlab&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D33833?style=flat&logo=jenkins&logoColor=white)
@@ -139,103 +144,162 @@ Infravox AI is an autonomous AI-powered DevOps and SRE platform that:
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 ![CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat&logo=circleci&logoColor=white)
 
-### 🔔 Alerts & Messaging
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white)
-![Teams](https://img.shields.io/badge/Microsoft_Teams-5059C9?style=flat&logo=microsoftteams&logoColor=white)
-![PagerDuty](https://img.shields.io/badge/PagerDuty-06AC38?style=flat&logo=pagerduty&logoColor=white)
-![Opsgenie](https://img.shields.io/badge/Opsgenie-EF5C23?style=flat&logo=opsgenie&logoColor=white)
-
-### 🗄️ Data & Storage
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
-![Vault](https://img.shields.io/badge/HashiCorp_Vault-FFD814?style=flat&logo=vault&logoColor=black)
+### 📡 Observability
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat&logo=datadog&logoColor=white)
+![New Relic](https://img.shields.io/badge/New_Relic-008C99?style=flat&logo=newrelic&logoColor=white)
+![Loki](https://img.shields.io/badge/Grafana_Loki-F46800?style=flat&logo=grafana&logoColor=white)
+
+### 🔔 Alerting
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white)
+![PagerDuty](https://img.shields.io/badge/PagerDuty-06AC38?style=flat&logo=pagerduty&logoColor=white)
+![Teams](https://img.shields.io/badge/Microsoft_Teams-5059C9?style=flat&logo=microsoftteams&logoColor=white)
+![Opsgenie](https://img.shields.io/badge/Opsgenie-EF5C23?style=flat&logo=opsgenie&logoColor=white)
 
 ---
 
-## 📊 Real Business Impact
+## Impact Metrics
 
 | Metric | Result |
 |---|---|
-| ⏱ Average MTTR | **4 hours → 94 seconds** |
-| 🤖 Auto-resolve rate | **78% of incidents** |
-| 💰 Monthly savings | **$8,000+ per customer** |
-| 📉 Engineer hours saved | **40+ hours/month** |
-| 📈 ROI on Unlimited plan | **21×** |
-| 🔐 Compliance checks | **580+ automated** |
+| ⏱ **MTTR** | 4 hours → **94 seconds** |
+| 🤖 **Auto-resolve rate** | **78%** of incidents |
+| 💰 **Monthly savings** | **$8,340** avg per team |
+| 🕐 **Engineer hours saved** | **40+ hours/month** |
+| 📈 **ROI** | **21×** on Growth plan |
+| 🔐 **Compliance checks** | **580+** automated |
+| ☁️ **Cloud waste reduced** | Avg **$2K–$15K/month** |
 
 ---
 
-## 💳 Pricing
+## Pricing
 
-| Plan | Price | Best for |
-|---|---|---|
-| 🌱 **Starter** | Free forever | Explore the platform — no card needed |
-| ⚡ **Professional** | $149/mo | Full observability + AI RCA · 14-day trial |
-| 🤖 **Unlimited** | $399/mo | Autonomous ops at scale ⭐ Most popular |
-| 🏢 **Enterprise** | Custom | On-prem VPC · SOC2/HIPAA · Dedicated CSM |
+| Plan | Price | Clusters | AI Ops/Month | Key Features |
+|---|---|---|---|---|
+| 🆓 **Free** | $0 | 1 | 100 | Basic AI monitoring, community support |
+| ⚡ **Starter** | $99/mo | 2 | 2,000 | AI RCA, Slack alerts, AI PR reviews |
+| 🔥 **Growth** | $499/mo | 10 | 20,000 | AI War Room, Security AI, FinOps AI, autonomous remediation |
+| 🏢 **Scale** | $1,499/mo | Unlimited | High-volume | SSO/SAML, RBAC, audit logs, API access, 99.95% SLA |
+| 🌐 **Enterprise** | Custom | Unlimited | Enterprise | VPC/on-prem, private AI, SOC2/HIPAA/ISO, dedicated support |
 
-> 💡 Teams on **Unlimited** save an average of **$8,340/month** — that's a **21× ROI**
+> **Usage-based add-ons**: `$5/node · $0.25/GB logs · AI ops overage pricing available`
 
 ---
 
-## 🏗️ Tech Stack
+## Enterprise Architecture
 
 ```
-Frontend    →  Next.js (App Router) · React · Tailwind CSS
-Backend     →  FastAPI (Python) · Node.js (real-time streaming)
-AI Layer    →  OpenAI · LLaMA · RAG pipeline · pgvector · MCP Protocol
-Data        →  ClickHouse · Loki · Prometheus · OpenTelemetry · Tempo
-Infra       →  Kubernetes · Docker · Terraform · GitHub Actions · Helm
-Auth        →  JWT · Google SSO · GitHub SSO · Microsoft SSO
-Real-time   →  WebSockets — logs · chat · incidents · alerts
+┌─────────────────────────────────────────────────────────────┐
+│                   Multi-Tenant SaaS Layer                   │
+│  Organization → Projects → Teams → RBAC → Audit Logs       │
+├─────────────────────────────────────────────────────────────┤
+│                  Secure Secrets Vault                       │
+│  AES-256 encrypted · Per-tenant isolation · Zero plaintext  │
+├─────────────────────────────────────────────────────────────┤
+│               AI Agent Orchestration Engine                 │
+│  6 agents · Redis pub/sub · Celery workers · Event bus      │
+├──────────────┬──────────────┬──────────────────────────────┤
+│  FastAPI     │  PostgreSQL  │  pgvector (AI memory)        │
+│  Backend     │  + Redis     │  RAG pipeline                │
+└──────────────┴──────────────┴──────────────────────────────┘
+```
+
+**Enterprise security**: SOC2-ready · SSO/SAML · VPC deployment · Immutable audit logs · Multi-tenant RBAC · TLS everywhere · AI safety controls
+
+---
+
+## Tech Stack
+
+```
+Frontend    →  Next.js 15 (App Router) · React · TypeScript · Tailwind CSS
+Backend     →  FastAPI (Python) · PostgreSQL · Redis · Celery
+AI Layer    →  Multi-agent orchestration · RAG + pgvector · MCP Protocol
+Observability → ClickHouse · Loki · Prometheus · OpenTelemetry · Tempo
+Infrastructure → Kubernetes-native · Docker · Helm charts · Terraform
+Auth        →  JWT · OAuth2 · Google SSO · GitHub SSO · SAML 2.0
+Real-time   →  WebSockets + SSE — live agent feed · War Room · log streaming
+CLI         →  @infravox/cli (npm) — full platform terminal access
 ```
 
 ---
 
-## 👥 Team
-
-| | Name | Role |
-|---|---|---|
-| 👨‍💻 | **Shivam Singh** | CEO & Co-Founder — [shivamsingh@infravox.ai](mailto:shivamsingh@infravox.ai) |
-| ⚙️ | **Sameer Bhanot** | COO & Co-Founder — Chief Operations & Product Officer |
-
----
-
-## 🚀 Get Started
+## Quick Start
 
 ```bash
-# Visit the platform and sign up free — no card needed
-https://infravox.ai
+# 1. Sign up free at infravox.ai — no credit card needed
+# 2. Connect your cloud (AWS / GCP / Azure) — OAuth, 2 minutes
+# 3. Connect Kubernetes cluster via Helm
+helm repo add infravox https://charts.infravox.ai
+helm install infravox-operator infravox/infravox-operator \
+  --namespace infravox-system --create-namespace \
+  --set apiKey=YOUR_KEY --set cluster.name=production
 
-# Connect your first integration in under 2 minutes
-# AWS · Azure · GCP · Kubernetes · GitHub · GitLab
+# 4. Install the CLI
+npm install -g @infravox/cli
+infravox auth login
+infravox scan --all
+
+# From alert to autonomous in 30 minutes.
 ```
+
+📖 Full onboarding guides at [infravox.ai/docs](https://infravox.ai/docs)
 
 ---
 
-## 📞 Contact & Links
+## Documentation
 
-| | |
+| Resource | Link |
 |---|---|
-| 🌐 Website | [infravox.ai](https://infravox.ai) |
-| 📖 Docs | [infravox.ai/docs](https://infravox.ai/docs) |
-| 💰 Pricing | [infravox.ai/pricing](https://infravox.ai/pricing) |
-| 🔌 Integrations | [infravox.ai/integrations-overview](https://infravox.ai/integrations-overview) |
-| 🏢 About | [infravox.ai/about](https://infravox.ai/about) |
-| 📩 Email | [shivamsingh@infravox.ai](mailto:shivamsingh@infravox.ai) |
-| 💼 LinkedIn | [linkedin.com/company/infravox-ai](https://linkedin.com/company/infravox-ai) |
+| 📖 **Full Docs** | [infravox.ai/docs](https://infravox.ai/docs) |
+| 🚀 **Install Guide** | [infravox.ai/docs → Getting Started](https://infravox.ai/guides/install) |
+| ☸️ **Connect Kubernetes** | [infravox.ai/guides/connect-k8s](https://infravox.ai/guides/connect-k8s) |
+| 💻 **CLI Reference** | [infravox.ai/cli](https://infravox.ai/cli) |
+| 🤖 **AI Agent Permissions** | [infravox.ai/guides/agent-permissions](https://infravox.ai/guides/agent-permissions) |
+| 💰 **Pricing** | [infravox.ai/pricing](https://infravox.ai/pricing) |
+| 🏢 **About** | [infravox.ai/about](https://infravox.ai/about) |
+
+---
+
+## Team
+
+<table>
+<tr>
+<td align="center" width="280">
+<img src="https://infravox.ai/team/shivam.png" width="120" height="120" style="border-radius:50%" alt="Shivam Singh" /><br />
+<strong>Shivam Singh</strong><br />
+CEO & Co-Founder<br />
+<sub>Kubernetes · AI/ML · Cloud Infrastructure · Platform Engineering</sub><br /><br />
+<a href="mailto:shivamsingh@infravox.ai">📩 shivamsingh@infravox.ai</a><br />
+<a href="https://www.linkedin.com/in/shivam-chauhan-b053a9174/">💼 LinkedIn</a> ·
+<a href="https://github.com/shivamsingh-Infravoxai">🐙 GitHub</a>
+</td>
+<td align="center" width="280">
+<img src="https://infravox.ai/team/sameer.png" width="120" height="120" style="border-radius:50%" alt="Sameer Bhanot" /><br />
+<strong>Sameer Bhanot</strong><br />
+COO & Chief Product Officer<br />
+<sub>Product Strategy · GTM & Sales · SaaS Growth · Operations</sub><br /><br />
+<a href="mailto:sameer@infravox.ai">📩 sameer@infravox.ai</a><br />
+<a href="https://www.linkedin.com/in/sameer-bhanot-75a25a172/">💼 LinkedIn</a>
+</td>
+</tr>
+</table>
+
+**We're hiring**: Head of Engineering · Lead AI/ML Researcher · Senior SRE · Growth Lead  
+→ [hello@infravox.ai](mailto:hello@infravox.ai)
 
 ---
 
 <div align="center">
 
-**Founded 2026 · India · Seed Round Open · $500K**
+**Infravox AI · Founded 2026 · Remote-first · Production Ready**
 
-*Stop firefighting. Start shipping.*
+*The Autonomous Engineering Operating System — built for teams that never want to fight fires again.*
 
-⭐ **Star this org** if you believe DevOps should be autonomous.
+[![Try Free](https://img.shields.io/badge/Try_Free-Get_Started-6366F1?style=for-the-badge)](https://infravox.ai)
+[![Book Architecture Review](https://img.shields.io/badge/Enterprise-Book_Architecture_Review-10B981?style=for-the-badge)](mailto:shivamsingh@infravox.ai?subject=Architecture%20Review%20-%20Infravox%20AI)
+[![CLI Docs](https://img.shields.io/badge/npm_install-@infravox/cli-00E5FF?style=for-the-badge&logo=npm)](https://infravox.ai/cli)
+
+⭐ **Star this org** if autonomous infrastructure is the future you believe in.
 
 </div>
