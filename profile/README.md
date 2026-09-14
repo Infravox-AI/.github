@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://infravox.ai/favicon.ico" width="64" alt="Infravox AI" />
-
-# Infravox AI
+<img src="https://infravox.ai/logo.png" width="420" alt="Infravox AI — Autonomous Infrastructure, Reimagined" />
 
 ### The AI-Native Operating System for Your Cloud
 
